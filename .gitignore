@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system-specific or editor-specific files
+.DS_Store
+*.swp
+
+# Ignore Flask-specific cache files
+instance/
+*.log
+
